@@ -29,7 +29,7 @@ describe('useGeoIp', () => {
   });
 
 
-  it('should return initial response state as null (falsy)', async (next) => {
+  it('should return initial response state as empty object', async (next) => {
     const { result } = renderHook(() => useGeoIp());
 
     let response = 'string';
@@ -37,7 +37,7 @@ describe('useGeoIp', () => {
       const { current } = result;
       response = current;
     });
-    expect(response).toBeNull();
+    expect(response).toEqual({});
 
     next();
   });

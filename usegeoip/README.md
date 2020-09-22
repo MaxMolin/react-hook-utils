@@ -13,7 +13,7 @@ Simply import the hook in your component.
 `import useGeoIp from 'useGeoIp';`
 
 Then you can destruct any of the available properties from the hooks return value 
-(object). _Please note that it will be undefined until result is presented thus 
+(object). _Please note that it will be empty object until result is presented thus 
 regular nullcheck higher in the hierarchy might be in place._
  
 `const { country } = useGeoIp();`

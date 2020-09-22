@@ -23,7 +23,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir .",
+    "build": "babel src --out-dir . --ignore '**/*.test.js'",
     "bump": "npm version",
     "prepublishOnly": "yarn build",
     "watch": "nodemon --watch src --exec \"yarn build\""

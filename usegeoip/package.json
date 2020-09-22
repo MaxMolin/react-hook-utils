@@ -1,6 +1,6 @@
 {
   "name": "usegeoip",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Simple React hook for getting extensive geolocation data on current user IP address.",
   "author": {
     "name": "Max Molin",
@@ -20,7 +20,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir .",
+    "build": "babel src --out-dir . --ignore '**/*.test.js'",
     "bump": "npm version",
     "prepublishOnly": "yarn build",
     "watch": "nodemon --watch src --exec \"yarn build\""
