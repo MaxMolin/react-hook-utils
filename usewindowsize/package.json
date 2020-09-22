@@ -1,7 +1,7 @@
 {
   "name": "usewindowsize",
   "version": "0.1.0",
-  "description": "React hook providing window width and height triggering update on window resize event.",
+  "description": "Simple React hook providing window width and height updates are triggered on window resize event.",
   "author": {
     "name": "Max Molin",
     "email": "open-source@bergb.org",
@@ -35,9 +35,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MaxMolin/use-geoip"
+    "url": "https://github.com/MaxMolin/react-util-hooks"
   },
   "bugs": {
-    "url": "https://github.com/MaxMolin/use-geoip/issues"
+    "url": "https://github.com/MaxMolin/react-util-hooks/issues"
   }
 }
