@@ -6,6 +6,8 @@ useWindowSize is a simple hook for getting the width and height of the browser w
 
 ### Usage: useWindowSize react hook
 
+Add to your project `npm i useWindowSize` or using yarn `yarn add useWindowSize`.
+
 Simply import the hook to your component.
 
 `import useWindowSize from 'useWindowSize';`

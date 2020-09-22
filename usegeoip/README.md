@@ -6,6 +6,8 @@ Simple hook for fetching **geolocation** data based on users ip address.
 
 ### Usage of the useGeoIp React hook
 
+Add to your project `npm i useGeoIp` or using yarn `yarn add useGeoIp`.
+
 Simply import the hook in your component.
 
 `import useGeoIp from 'useGeoIp';`
