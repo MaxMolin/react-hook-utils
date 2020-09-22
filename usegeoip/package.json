@@ -1,0 +1,43 @@
+{
+  "name": "usegeoip",
+  "version": "0.1.3",
+  "description": "React hook for doing a GeoIp lookup of current user ip address",
+  "author": {
+    "name": "Max Molin",
+    "email": "open-source@bergb.org",
+    "url": "https://bergb.org"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "usegeoip",
+    "use geoip",
+    "geoip",
+    "geo-ip",
+    "geo",
+    "ip",
+    "react-hooks"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "bump": "npm version",
+    "prepublishOnly": "yarn build",
+    "watch": "nodemon --watch src --exec \"yarn build\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaxMolin/use-geoip"
+  },
+  "bugs": {
+    "url": "https://github.com/MaxMolin/use-geoip/issues"
+  }
+}

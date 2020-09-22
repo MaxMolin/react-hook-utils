@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "workspaces": [
+    "usegeoip",
+    "usewindowsize"
+  ],
+  "scripts": {
+    "build": "yarn build:usegeoip && yarn build:usewindowsize",
+    "build:usegeoip": "yarn workspace usegeoip build",
+    "build:usewindowsize": "yarn workspace usewindowsize build",
+    "bump": "yarn workspace usegeoip bump",
+    "develop": "yarn watch",
+    "test": "yarn jest --coverage",
+    "watch": "concurrently -n Hook,Example \"yarn watch:usegeoip\" \"yarn watch:usewindowsize\"",
+    "watch:usegeoip": "yarn workspace usegeoip watch",
+    "watch:usewindowsize": "yarn workspace usewindowsize watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/react-hooks": "^3.4.1",
+    "babel-jest": "^26.3.0",
+    "concurrently": "^5.3.0",
+    "jest": "^26.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-test-renderer": "^16.13.1"
+  },
+  "license": "MIT"
+}

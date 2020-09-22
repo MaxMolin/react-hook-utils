@@ -1,0 +1,6 @@
+yarn-error.log
+
+.next
+node_modules
+out
+tests/coverage
