@@ -16,6 +16,7 @@
     "window-size",
     "window",
     "size",
+    "resize",
     "react-hooks"
   ],
   "main": "index.js",
