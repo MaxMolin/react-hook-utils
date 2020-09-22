@@ -1,7 +1,7 @@
 module.exports = {
   clearMocks: true,
   collectCoverageFrom: [
-    "./usewindowsize/src/*.js",
+    "./usebrowserwindowsize/src/*.js",
     "./usegeoip/src/*.js",
     "!./**/src/index.js",
   ],

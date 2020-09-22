@@ -1,6 +1,6 @@
 {
-  "name": "usewindowsize",
-  "version": "0.1.0",
+  "name": "usebrowserwindowsize",
+  "version": "0.1.1",
   "description": "Simple React hook providing window width and height updates are triggered on window resize event.",
   "author": {
     "name": "Max Molin",

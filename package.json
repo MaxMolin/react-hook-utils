@@ -2,18 +2,18 @@
   "private": true,
   "workspaces": [
     "usegeoip",
-    "usewindowsize"
+    "usebrowserwindowsize"
   ],
   "scripts": {
-    "build": "yarn build:usegeoip && yarn build:usewindowsize",
+    "build": "yarn build:usegeoip && yarn build:usebrowserwindowsize",
     "build:usegeoip": "yarn workspace usegeoip build",
-    "build:usewindowsize": "yarn workspace usewindowsize build",
+    "build:usebrowserwindowsize": "yarn workspace usebrowserwindowsize build",
     "bump": "yarn workspace usegeoip bump",
     "develop": "yarn watch",
     "test": "yarn jest --coverage",
-    "watch": "concurrently -n Hook,Example \"yarn watch:usegeoip\" \"yarn watch:usewindowsize\"",
+    "watch": "concurrently -n Hook,Example \"yarn watch:usegeoip\" \"yarn watch:usebrowserwindowsize\"",
     "watch:usegeoip": "yarn workspace usegeoip watch",
-    "watch:usewindowsize": "yarn workspace usewindowsize watch"
+    "watch:usebrowserwindowsize": "yarn workspace usebrowserwindowsize watch"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",

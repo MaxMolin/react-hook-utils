@@ -1,20 +1,20 @@
 import React from 'react';
 import {fireEvent} from '@testing-library/react';
 import {act, renderHook } from '@testing-library/react-hooks';
-import useWindowSize from './useWindowSize';
+import useBrowserWindowSize from './useBrowserWindowSize';
 
 const AssignWindowSize = (width, height) => {
   Object.assign(window, { innerWidth: width, innerHeight: height });
 };
 
-describe('useWindowSize', () => {
+describe('useBrowserWindowSize', () => {
 
   beforeEach(() => {
     AssignWindowSize(200, 100);
   });
 
   it('should read initial innerWidth and innerHeight from window', () => {
-    const { result } = renderHook(() => useWindowSize());
+    const { result } = renderHook(() => useBrowserWindowSize());
     const windowSize = result.current;
     const [width, height] = windowSize;
 
@@ -23,7 +23,7 @@ describe('useWindowSize', () => {
   });
 
   it('updates width and height on window resize', () => {
-    const { result } = renderHook(() => useWindowSize());
+    const { result } = renderHook(() => useBrowserWindowSize());
     expect(result.current).toEqual([200,100]);
 
     act(() => {
