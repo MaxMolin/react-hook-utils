@@ -1,6 +1,6 @@
-# 📐 useWindowSize: React hook for Subscribing to changes of window size
+# 📐 useWindowSize
 
-useWindowSize is a simple hook for getting the width and height of the browser window. Will retrigger on each resize event.
+React hook for getting width and height of browser window. Will update on window resize event.
 
 ## 🚀 Getting Started
 

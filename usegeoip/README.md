@@ -1,6 +1,6 @@
-# 📍 useGeoIp: React hook for getting geolocation data on current users IP address
+# 📍 useGeoIp
 
-Simple hook for fetching **geolocation** data based on users ip address.
+Simple React hook for getting extensive geolocation data on current user IP address.
 
 ## 🚀 Getting Started
 
