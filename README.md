@@ -1,4 +1,4 @@
-# ↪️ react-hook-utils: nice-to-have hooks
+# ↪️ react-util-hooks: simple, and nice-to-have, hooks
 
 ### 📍 useGeoIp
 Simple hook for fetching user **geolocation** data based on ip address - such as country, countryCode, city and such.
