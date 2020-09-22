@@ -3,7 +3,6 @@ module.exports = {
   collectCoverageFrom: [
     "./usebrowserwindowsize/src/*.js",
     "./usegeoip/src/*.js",
-    "!./**/src/index.js",
   ],
   coverageDirectory: "tests/coverage",
   coverageReporters: [

@@ -1,8 +1,7 @@
 import React from 'react';
 import {act, renderHook } from '@testing-library/react-hooks';
-import useGeoIp, { GEOIP_REQUEST_URL } from './useGeoIp';
+import useGeoIp, { GEOIP_REQUEST_URL } from '.';
 
-const mockFetchPromise = { crap: 'yes' };
 describe('useGeoIp', () => {
 
   let mockSuccessResponse = { countryCode: 'SE', city: 'Goteborg' };

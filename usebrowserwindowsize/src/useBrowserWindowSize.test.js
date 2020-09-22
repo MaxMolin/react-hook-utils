@@ -1,7 +1,7 @@
 import React from 'react';
 import {fireEvent} from '@testing-library/react';
 import {act, renderHook } from '@testing-library/react-hooks';
-import useBrowserWindowSize from './useBrowserWindowSize';
+import useBrowserWindowSize from '.';
 
 const AssignWindowSize = (width, height) => {
   Object.assign(window, { innerWidth: width, innerHeight: height });

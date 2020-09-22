@@ -6,11 +6,11 @@ Simple React hook for getting extensive geolocation data on current user IP addr
 
 ### Usage of the useGeoIp React hook
 
-Add to your project `npm i useGeoIp` or using yarn `yarn add useGeoIp`.
+Add to your project `npm i usegeoip` or using yarn `yarn add usegeoip`.
 
 Simply import the hook in your component.
 
-`import useGeoIp from 'useGeoIp';`
+`import useGeoIp from 'usegeoip';`
 
 Then you can destruct any of the available properties from the hooks return value 
 (object). _Please note that it will be empty object until result is presented thus 
