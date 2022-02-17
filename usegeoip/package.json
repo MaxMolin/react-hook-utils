@@ -1,11 +1,11 @@
 {
   "name": "usegeoip",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Simple React hook for getting extensive geolocation data on current user IP address.",
   "author": {
     "name": "Max Molin",
-    "email": "open-source@bergb.org",
-    "url": "https://bergb.org"
+    "email": "open-source@molinit.com",
+    "url": "https://molinit.com"
   },
   "keywords": [
     "react",
